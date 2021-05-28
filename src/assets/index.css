@@ -1,0 +1,30 @@
+/* Import Font Style From Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /*Lato*/
+
+/* Create Variable CSS for Global Use */
+:root {
+  --orange: #FF8717;
+  --black: #050505;
+  --white: #FCFFFF;
+  --blue: #63BBF2;
+}
+
+/* Basic Setting for Global CSS*/
+* {
+  box-sizing: border-box;
+  margin: unset;
+}
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+}

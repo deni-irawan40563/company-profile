@@ -1,0 +1,40 @@
+#header {
+  background-color: var(--black);
+  padding: 20px 200px;
+}
+#header ul {
+  text-align: right;
+  color: var(--white);
+}
+#header ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+#header ul li span {
+  font-weight: normal;
+}
+#header ul li a {
+  color: var(--white);
+  font-weight: normal;
+}
+#header ul li a:hover {
+  color: var(--orange);
+}
+
+@media (max-width:1024px){
+  #header {
+    padding: 20px 0;
+  }
+  #header ul li {
+    font-size: 0.8em;
+  }
+}
+@media (max-width:590px){
+  #header ul li {
+    display: block;
+    text-align: left;
+  }
+}

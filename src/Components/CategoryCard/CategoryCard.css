@@ -1,0 +1,22 @@
+#category-card {
+  border: 1px solid gainsboro;
+  width: 100%;
+  padding: 0 ;
+  margin-bottom: 20px;
+}
+#category-card li {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  border-bottom: 1px solid gainsboro;
+}
+#category-card li p {
+  padding: 20px 10px;
+  margin-left: 10px;
+  font-size: bold;
+  cursor: pointer;
+}
+#category-card li:hover {
+  border-left: 3px solid var(--orange);
+  color: var(--orange);
+}
